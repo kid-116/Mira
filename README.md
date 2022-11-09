@@ -45,6 +45,7 @@ Our Sudoku is a $2\times2$ grid to be filled with 0s and 1s. A valid solution fo
 
 #### Oracle
 ![](./assets/images/oracle.png)
+
 The Sudoku Oracle checks if a solution is valid and accordingly sets $out$. It first checks all of inequalities mentioned above and then finally sets $out$ to $\ket{1}$ if and only if, all of the said inequalities hold.
 
 #### Final Circuit
